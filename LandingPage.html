@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="overscroll-x-none">
+    <div class="navbar bg-base-100 fixed top-0 z-50">
+        <div class="lg:navbar-start w-full">
+            <div class="dropdown">
+                <label tabIndex="0" class="btn btn-ghost bg-gray-200 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabIndex="0"
+                    class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                </ul>
+            </div>
+            <a href="/" class='ml-auto lg:ml-0'><img class='w-60' src="Assets/logo.png" alt="logo" /></a>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="btn text-white bg-primary border-0 mx-2 capitalize" href="">Home</a></li>
+                <li><a class="btn text-white bg-primary border-0 mx-2 capitalize" href="">Programs</a></li>
+                <li><a class="btn text-white bg-primary border-0 mx-2 capitalize" href="">Home</a></li>
+                <li><a class="btn bg-yellow-500 text-white bg-primary border-0 mx-2 capitalize" href="">Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-4 md:px-6">
+        <div class="hero min-h-screen" style="background-image: url(Assets/map2.png);">
+            <div class="hero-content text-center text-neutral-content">
+                <div class="">
+                    <h1 class="mb-5 text-xl font-bold text-black mt-20 lg:mt-0">Search your preferred Service</h1>
+
+                    <button class="btn btn-sm btn-primary">Visa Type</button>
+                    <button class="btn btn-sm btn-primary">By Country</button>
+                    <button class="btn btn-sm btn-primary">Check Eligibility</button>
+
+                    <h2 class="mt-5 text-2xl font-bold text-red-500">Top Immigration Countries</h2>
+
+                    <div class="lg:flex items-center mt-5">
+
+                        <div>
+                            <img class="w-60 px-3 mx-auto my-5"
+                                src="https://www.worldometers.info/img/flags/ca-flag.gif" alt="">
+                            <p class="text-center text-black text-xl font-semibold">Canada</p>
+                        </div>
+                        <div>
+                            <img class="w-60 px-3 mx-auto my-5"
+                                src="https://www.worldometers.info/img/flags/uk-flag.gif" alt="">
+                            <p class="text-center text-black text-xl font-semibold">United Kingdom</p>
+                        </div>
+                        <div>
+                            <img class="w-60 px-3 mx-auto my-5"
+                                src="https://www.worldometers.info/img/flags/as-flag.gif" alt="">
+                            <p class="text-center text-black text-xl font-semibold">Australia</p>
+                        </div>
+                        <div>
+                            <img class="w-60 px-3 mx-auto my-5"
+                                src="https://www.worldometers.info/img/flags/gm-flag.gif" alt="">
+                            <p class="text-center text-black text-xl font-semibold">Germany</p>
+                        </div>
+                        <div>
+                            <img class="w-60 px-3 mx-auto my-5"
+                                src="https://www.worldometers.info/img/flags/nz-flag.gif" alt="">
+                            <p class="text-center text-black text-xl font-semibold">New Zealand</p>
+                        </div>
+                        <div>
+                            <img class="w-60 px-3 mx-auto my-5"
+                                src="https://www.worldometers.info/img/flags/us-flag.gif" alt="">
+                            <p class="text-center text-black text-xl font-semibold">United States</p>
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-primary btn-outline mt-4">View All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <p class="text-4xl font-semibold text-center mb-7">Top Programs</p>
+
+            <div class="lg:grid lg:grid-cols-3 gap-4">
+                <div class="lg:flex justify-evenly my-5">
+                    <div class="card w-96  shadow-xl image-full">
+                        <figure><img src="https://www.worldometers.info/img/flags/ca-flag.gif" alt="country" /></figure>
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="text-4xl font-semibold">Canada</h2>
+                                <h3 class=" text-lg">Express Entry</h3>
+                            </div>
+                            <div class="mt-3">
+                                <p>Costs: $500 - $1200</p>
+                                <p>Estimated Time: 8 - 12 Months</p>
+                                <p>Visa Type: Business</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-sm">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex justify-evenly my-5">
+                    <div class="card w-96  shadow-xl image-full">
+                        <figure><img src="https://www.worldometers.info/img/flags/uk-flag.gif" alt="country" /></figure>
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="text-4xl font-semibold">United Kingdom</h2>
+                                <h3 class=" text-lg">Express Entry</h3>
+                            </div>
+                            <div class="mt-3">
+                                <p>Costs: $500 - $1200</p>
+                                <p>Estimated Time: 8 - 12 Months</p>
+                                <p>Visa Type: Business</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-sm">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex justify-evenly my-5">
+                    <div class="card w-96  shadow-xl image-full">
+                        <figure><img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="country" /></figure>
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="text-4xl font-semibold">USA</h2>
+                                <h3 class=" text-lg">Express Entry</h3>
+                            </div>
+                            <div class="mt-3">
+                                <p>Costs: $500 - $1200</p>
+                                <p>Estimated Time: 8 - 12 Months</p>
+                                <p>Visa Type: Business</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-sm">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex justify-evenly my-5">
+                    <div class="card w-96  shadow-xl image-full">
+                        <figure><img src="https://www.worldometers.info/img/flags/as-flag.gif" alt="country" /></figure>
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="text-4xl font-semibold">Australia</h2>
+                                <h3 class=" text-lg">Express Entry</h3>
+                            </div>
+                            <div class="mt-3">
+                                <p>Costs: $500 - $1200</p>
+                                <p>Estimated Time: 8 - 12 Months</p>
+                                <p>Visa Type: Business</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-sm">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex justify-evenly my-5">
+                    <div class="card w-96  shadow-xl image-full">
+                        <figure><img src="https://www.worldometers.info/img/flags/gm-flag.gif" alt="country" /></figure>
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="text-4xl font-semibold">Germany</h2>
+                                <h3 class=" text-lg">Express Entry</h3>
+                            </div>
+                            <div class="mt-3">
+                                <p>Costs: $500 - $1200</p>
+                                <p>Estimated Time: 8 - 12 Months</p>
+                                <p>Visa Type: Business</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-sm">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:flex justify-evenly my-5">
+                    <div class="card w-96  shadow-xl image-full">
+                        <figure><img src="https://www.worldometers.info/img/flags/nz-flag.gif" alt="country" /></figure>
+                        <div class="card-body">
+                            <div class="">
+                                <h2 class="text-4xl font-semibold">New Zealand</h2>
+                                <h3 class=" text-lg">Express Entry</h3>
+                            </div>
+                            <div class="mt-3">
+                                <p>Costs: $500 - $1200</p>
+                                <p>Estimated Time: 8 - 12 Months</p>
+                                <p>Visa Type: Business</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary btn-sm">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-10">
+                <button class="btn btn-outline btn-primary">View All</button>
+            </div>
+        </div>
+
+        <div class="my-32">
+            <p class="text-4xl font-semibold text-center mb-7">Top Visa Expert</p>
+
+            <div class="lg:grid grid-cols-3 gap-4">
+                <div class="flex flex-col justify-center items-center my-5">
+
+                    <div
+                        class="relative flex flex-col items-center rounded-[20px] max-w-[400px] border rounded-xl p-4 mx-auto bg-gray-100 bg-clip-border shadow-3xl shadow-shadow-500 dark:!bg-navy-800 dark:text-white dark:!shadow-none">
+                        <div class="relative flex h-32 w-full justify-center rounded-xl bg-cover">
+
+                            <img src='https://www.worldometers.info/img/flags/ar-flag.gif'
+                                class=" flex h-32 w-full justify-center rounded-xl object-cover">
+                            <div
+                                class="absolute -bottom-12 flex h-[100px] w-[100px] items-center justify-center rounded-full border-[4px] border-white bg-pink-400 dark:!border-navy-700">
+                                <img class="h-full w-full rounded-full"
+                                    src='https://randomuser.me/api/portraits/men/33.jpg' alt="" />
+                            </div>
+                        </div>
+                        <div class="mt-16 flex flex-col items-center">
+                            <h4 class="text-xl font-bold text-navy-700 dark:text-white">
+                                Gabriel C.
+                            </h4>
+                            <p class="text-base font-normal text-gray-600">Immigration and Residency</p>
+                            <p class=" text-black text-centertext-lg font-semibold">Argentina Rentista Visa
+                                Application
+                                Assistance</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-7 items-center justify-between mt-6">
+
+                                <div>
+                                    <p class="font-semibold text-center">CONSULTATION</p>
+                                    <p>$150 - $150</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-center">FULL SERVICE</p>
+                                    <p>$3000 - $3000</p>
+                                </div>
+
+                            </div>
+                            <button class="btn btn-primary w-full btn-sm mt-4">Chat now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center my-5">
+
+                    <div
+                        class="relative flex flex-col items-center rounded-[20px] max-w-[400px] border rounded-xl p-4 mx-auto bg-gray-100 bg-clip-border shadow-3xl shadow-shadow-500 dark:!bg-navy-800 dark:text-white dark:!shadow-none">
+                        <div class="relative flex h-32 w-full justify-center rounded-xl bg-cover">
+
+                            <img src='https://www.worldometers.info/img/flags/ar-flag.gif'
+                                class=" flex h-32 w-full justify-center rounded-xl object-cover">
+                            <div
+                                class="absolute -bottom-12 flex h-[100px] w-[100px] items-center justify-center rounded-full border-[4px] border-white bg-pink-400 dark:!border-navy-700">
+                                <img class="h-full w-full rounded-full"
+                                    src='https://randomuser.me/api/portraits/men/33.jpg' alt="" />
+                            </div>
+                        </div>
+                        <div class="mt-16 flex flex-col items-center">
+                            <h4 class="text-xl font-bold text-navy-700 dark:text-white">
+                                Gabriel C.
+                            </h4>
+                            <p class="text-base font-normal text-gray-600">Immigration and Residency</p>
+                            <p class=" text-black text-centertext-lg font-semibold">Argentina Rentista Visa
+                                Application
+                                Assistance</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-7 items-center justify-between mt-6">
+
+                                <div>
+                                    <p class="font-semibold text-center">CONSULTATION</p>
+                                    <p>$150 - $150</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-center">FULL SERVICE</p>
+                                    <p>$3000 - $3000</p>
+                                </div>
+
+                            </div>
+                            <button class="btn btn-primary w-full btn-sm mt-4">Chat now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center my-5">
+
+                    <div
+                        class="relative flex flex-col items-center rounded-[20px] max-w-[400px] border rounded-xl p-4 mx-auto bg-gray-100 bg-clip-border shadow-3xl shadow-shadow-500 dark:!bg-navy-800 dark:text-white dark:!shadow-none">
+                        <div class="relative flex h-32 w-full justify-center rounded-xl bg-cover">
+
+                            <img src='https://www.worldometers.info/img/flags/ar-flag.gif'
+                                class=" flex h-32 w-full justify-center rounded-xl object-cover">
+                            <div
+                                class="absolute -bottom-12 flex h-[100px] w-[100px] items-center justify-center rounded-full border-[4px] border-white bg-pink-400 dark:!border-navy-700">
+                                <img class="h-full w-full rounded-full"
+                                    src='https://randomuser.me/api/portraits/men/33.jpg' alt="" />
+                            </div>
+                        </div>
+                        <div class="mt-16 flex flex-col items-center">
+                            <h4 class="text-xl font-bold text-navy-700 dark:text-white">
+                                Gabriel C.
+                            </h4>
+                            <p class="text-base font-normal text-gray-600">Immigration and Residency</p>
+                            <p class=" text-black text-centertext-lg font-semibold">Argentina Rentista Visa
+                                Application
+                                Assistance</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-7 items-center justify-between mt-6">
+
+                                <div>
+                                    <p class="font-semibold text-center">CONSULTATION</p>
+                                    <p>$150 - $150</p>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-center">FULL SERVICE</p>
+                                    <p>$3000 - $3000</p>
+                                </div>
+
+                            </div>
+                            <button class="btn btn-primary w-full btn-sm mt-4">Chat now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="flex justify-center mt-10">
+                <button class="btn btn-outline btn-primary">View All</button>
+            </div>
+        </div>
+        <div class="my-32">
+            <p class="text-4xl font-semibold text-center mb-14 text-orange-500">We Make Easy to <span
+                    class="text-black border-2 p-2 rounded border-orange-500 mt-5 relative top-6 lg:top-0">Apply
+                    Visa</span>
+            </p>
+
+            <div class="hidden lg:block">
+                <div class="flex justify-center my-7">
+                    <div class="flex items-center">
+                        <div
+                            class="w-32 h-32 bg-primary rounded-full flex justify-center items-center text-white text-4xl font-semibold">
+                            1
+                        </div>
+                        <div class="w-80 border-t-2 border-primary"></div>
+                        <div
+                            class="w-32 h-32 bg-primary rounded-full flex justify-center items-center text-white text-4xl font-semibold">
+                            2
+                        </div>
+                        <div class="w-80 border-t-2 border-primary"></div>
+                        <div
+                            class="w-32 h-32 bg-primary rounded-full flex justify-center items-center text-white text-4xl font-semibold">
+                            3
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-evenly">
+                    <div class="w-72">
+                        <h1 class="text-xl text-center font-semibold">Choose Country and Program</h1>
+                        <p class="text-center mt-4">Choose the country where you want
+                            to migrate as well you can choose
+                            the program
+                        </p>
+                    </div>
+                    <div class="w-72">
+                        <h1 class="text-xl text-center font-semibold">Check your Eligibility</h1>
+                        <p class="text-center mt-4">You can check your eligibility with
+                            Calculator and finds best option for
+                            you
+                        </p>
+                    </div>
+                    <div class="w-72">
+                        <h1 class="text-xl text-center font-semibold">Choose Expert and Apply</h1>
+                        <p class="text-center mt-4">You can check your eligibility with
+                            Calculator and finds best option for
+                            you
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- component -->
+            <div class="container block lg:hidden">
+                <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+
+                    <!-- right -->
+                    <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+                        </div>
+                        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+                            <h3 class="font-semibold text-lg mb-1">Choose Country and Program</h3>
+                            <p class="leading-tight">
+                                Choose the country where you want
+                                to migrate as well you can choose
+                                the program
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+                        </div>
+                        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+                            <h3 class="font-semibold text-lg mb-1">Check your Eligibility</h3>
+                            <p class="leading-tight">
+                                You can check your eligibility with
+                                Calculator and finds best option for
+                                you
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex md:contents">
+                        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div class="h-full w-6 flex items-center justify-center">
+                                <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            </div>
+                            <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+                        </div>
+                        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+                            <h3 class="font-semibold text-lg mb-1">Choose Expert and Apply</h3>
+                            <p class="leading-tight">
+                                You can check your eligibility with
+                                Calculator and finds best option for
+                                you
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
